@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Choose the perfect plan to scale your business with comprehensive CRM integrations, lead generation, and expert support."
           center
           width="665px"
         />
@@ -59,43 +59,43 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
             packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            price={isMonthly ? "450" : "4500"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Support for up to 7 active clients."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Automated Sales Funnel Setup" status="active" />
+            <OfferList text="Custom CRM Integrations" status="active" />
+            <OfferList text="Customer Journey Optimization" status="active" />
+            <OfferList text="Lead Generation and Nurturing" status="active" />
+            <OfferList text="Sales Pipeline Management" status="inactive" />
+            <OfferList text="Training and Support" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            packageName="Advanced"
+            price={isMonthly ? "800" : "7999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Support for up to 15 active clients."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="All features from the Basic Package" status="active" />
+            <OfferList text="Enhanced Custom CRM Integrations" status="active" />
+            <OfferList text="Advanced Customer Journey Optimization" status="active" />
+            <OfferList text="Comprehensive Lead Generation and Nurturing Strategies" status="active" />
+            <OfferList text="Advanced Sales Pipeline Management" status="active" />
+            <OfferList text="Priority Training and Support" status="inactive" />
+          </PricingBox>
+          <PricingBox
+            packageName="Pro"
+            price={isMonthly ? "1,325" : "14,999"}
+            duration={isMonthly ? "mo" : "yr"}
+            subtitle="Support for up to 25 active clients."
+          >
+            <OfferList text="All features from the Advanced Package" status="active" />
+            <OfferList text="Premium Custom CRM Integrations" status="active" />
+            <OfferList text="Expert-Level Customer Journey Optimization" status="active" />
+            <OfferList text="Strategic Lead Generation and Nurturing" status="active" />
+            <OfferList text="Comprehensive Sales Pipeline Management" status="active" />
+            <OfferList text="Dedicated Training and Support" status="active" />
           </PricingBox>
         </div>
       </div>

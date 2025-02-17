@@ -3,44 +3,44 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "OpenAI Integration with Go Highlevel",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Leverage OpenAI's tech with Go Highlevel's CRM to boost productivity, enhance customer experience, and stay ahead.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Cymone Ngoma",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Marketing Strategist",
     },
-    tags: ["creative"],
+    tags: ["AI"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Zapier Integration Guide for Lead Conversion",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "This guide shows how Zapier boosts lead conversion by automating tasks, streamlining workflows, and increasing productivity.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Eric Koome",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Software Developer",
     },
-    tags: ["computer"],
+    tags: ["zapier"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Top Benefits of GoHighLevel CRM",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Discover how GoHighLevel CRM an all-in-one platform streamlines operations, boosts sales, and helps grow your small business.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Cymone Ngoma",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Marketing Strategist",
     },
-    tags: ["design"],
+    tags: ["Highlevel"],
     publishDate: "2025",
   },
 ];
